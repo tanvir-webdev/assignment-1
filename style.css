@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family: "Fira Sans", serif;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+/* ---------------share style--------------------- */
+
+.primary-btn{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    background: rgb(0, 106, 80);
+    border-radius: 8px;
+    padding: 17px 34px;
+    border: none;
+    cursor: pointer;
+}
+
+
+/* ---------------nav style--------------------- */
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.nav-title{
+    color: #0E0E0E;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.nav-btn {
+    padding: 15px 30px;
+    border: 1px solid #006A50;
+    background-color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.nav-btn> a{
+    color: #006A50;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+/* ---------------hero/banner style--------------------- */
+
+.banner{
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+    display: flex;
+    height: 560px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+
+}
+
+.banner-contant{
+    width: 622px;
+}
+
+.banner-subtitle{
+    color: rgba(14, 14, 14, 0.5);
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.banner-title{
+    color: rgb(14, 14, 14);
+    font-size: 56px;
+    font-weight: 700;
+}
+
+.banner-img{
+    width: 474px;
+    height: 400px;
+}
+
+/* ---------------pillars section style--------------------- */
+
+.pillars>h2{
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.pillars-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+}
+
+.pillar{
+    width: 302px;
+    height: 244px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding: 24px;
+
+}
+
+.pillar>img{
+    width: 50px;
+}
+
+.pillar-name{
+    color: #0E0E0E;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.pillar-description{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
