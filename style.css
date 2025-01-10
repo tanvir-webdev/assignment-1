@@ -20,6 +20,13 @@ body{
     cursor: pointer;
 }
 
+.the-vision-box{
+    width: 410px;
+    height: 265px;
+    border-radius: 16px;
+    padding: 24px;
+}
+
 
 /* ---------------nav style--------------------- */
 
@@ -87,6 +94,10 @@ body{
 
 /* ---------------pillars section style--------------------- */
 
+.pillars{
+    margin-bottom: 80px;
+}
+
 .pillars>h2{
     color: rgb(14, 14, 14);
     font-size: 40px;
@@ -127,4 +138,69 @@ body{
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
+}
+
+/* ---------------The Vision of Future Section style--------------------- */
+
+.future>h2{
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.future-description{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.vision-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+}
+
+.the-vision1{
+    background: rgba(84, 144, 245, 0.2);
+}
+
+.the-vision2{
+    background: rgb(198, 228, 214);
+}
+
+.the-vision3{
+    background: rgb(247, 235, 207);
+}
+
+.vision-items img{
+    width: 50px;
+}
+
+.vision-name{
+    color: #0E0E0E;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.vision-description{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.learn-more1{
+    background-color: rgb(84, 144, 245);
+}
+
+.learn-more2{
+    background-color: rgb(9, 161, 92) ;
+}
+
+.learn-more3{
+    background-color: rgb(255, 194, 57);
 }
