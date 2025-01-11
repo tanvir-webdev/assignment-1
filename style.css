@@ -28,6 +28,20 @@ body{
     padding: 24px;
 }
 
+.section-title{
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.section-description{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
 
 /* ---------------nav style--------------------- */
 
@@ -99,13 +113,6 @@ body{
     margin-bottom: 80px;
 }
 
-.pillars>h2{
-    color: rgb(14, 14, 14);
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 48px;
-}
-
 .pillars-items{
     display: flex;
     justify-content: space-between;
@@ -145,20 +152,6 @@ body{
 
 .future{
     margin-bottom: 32px;
-}
-
-.future>h2{
-    color: rgb(14, 14, 14);
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 48px;
-}
-
-.future-description{
-    color: rgba(14, 14, 14, 0.7);
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
 }
 
 .vision-items{
@@ -244,3 +237,52 @@ body{
     font-weight: 400;
     line-height: 24px;
 }
+
+/* ---------------your opinion section style--------------------- */
+
+.your-opinion table{
+    width: 100%;
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding: 32px;
+}
+
+tr{
+    width: 1017px;
+}
+
+/* ---------------News section style--------------------- */
+
+.news{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+    padding: 48px;
+    background-color: #fff;
+    border-radius: 24px;
+    margin-bottom: 24px;
+}
+
+.news>img{
+    border-radius: 24px;
+}
+
+.news-title{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+}
+
+.news-contant time{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+
