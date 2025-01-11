@@ -298,15 +298,60 @@ main{
 
 /* ---------------your opinion section style--------------------- */
 
-.your-opinion table{
+table{
     width: 100%;
     border-radius: 16px;
     background: rgb(255, 255, 255);
-    padding: 32px;
+    padding: 5000px;
+    border-collapse: collapse;
 }
 
-tr{
+thead{  
+    border: 1px solid rgba(14, 14, 14, 0.15);
+}
+
+
+.th-1{
     width: 1017px;
+    text-align: left;
+}
+
+.th-2{
+    width: 200px;
+    text-align: right;
+}
+
+th{
+    background-color: rgb(198, 228, 214);
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px;
+}
+
+td{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    padding: 20px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+}
+
+.td-center{
+    text-align: center;
+}
+
+#opinion{
+    border-radius: 4px;
+    background-color: #C6E4D6;
+    padding: 12px 16px;
+    color: #0E0E0E;
+    font: 16px;
+    font-weight: 500;
 }
 
 /* ---------------News section style--------------------- */
