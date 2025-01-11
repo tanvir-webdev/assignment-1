@@ -4,7 +4,7 @@ body{
     font-family: "Fira Sans", serif;
     /* max-width: 1280px;
     margin: 0 auto; */
-    background-color: rgba(240, 240, 255, 0.582);
+    background-color: rgba(240, 240, 255, 0.61);
 }
 
 header{
@@ -69,19 +69,26 @@ main{
 }
 
 .nav-btn {
+    color: #006A50;
     padding: 15px 30px;
     border: 1px solid #006A50;
-    background-color: white;
+    background-color: rgba(240, 240, 255, 0.61);
     border-radius: 8px;
     cursor: pointer;
-}
-
-.nav-btn> a{
-    color: #006A50;
     font-size: 18px;
     font-weight: 600;
-    text-decoration: none;
 }
+
+.nav-btn:hover {
+    padding: 15px 30px;
+    border: 1px solid rgba(240, 240, 255, 0.61);
+    background-color: #006A50;
+    border-radius: 8px;
+    cursor: pointer;
+    color: #fff;
+}
+
+
 
 /* ---------------hero/banner style--------------------- */
 
