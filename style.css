@@ -4,6 +4,7 @@ body{
     font-family: "Fira Sans", serif;
     max-width: 1280px;
     margin: 0 auto;
+    background-color: rgba(240, 240, 255, 0.582);
 }
 
 /* ---------------share style--------------------- */
@@ -142,6 +143,10 @@ body{
 
 /* ---------------The Vision of Future Section style--------------------- */
 
+.future{
+    margin-bottom: 32px;
+}
+
 .future>h2{
     color: rgb(14, 14, 14);
     font-size: 40px;
@@ -203,4 +208,39 @@ body{
 
 .learn-more3{
     background-color: rgb(255, 194, 57);
+}
+
+/* ---------------advise Section style--------------------- */
+
+.advise{
+    background-color: #fff;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    padding: 48px 24px;
+    height: 180px;
+    margin-bottom: 80px;
+}
+
+.advise-contant{
+    margin-top: -55px;
+}
+
+.advise-contant>p {
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.advise-contant h3{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.adviser-rank{
+    color: rgba(14, 14, 14, 0.6);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
 }
