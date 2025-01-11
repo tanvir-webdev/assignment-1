@@ -446,6 +446,7 @@ td{
     color: black;
 }
 
+
 /* ---------------Subscribe section style--------------------- */
 
 .subscribe{
@@ -474,6 +475,13 @@ td{
 }
 
 .subscribe-btn{
+    height: 64px;
+    border-radius: 0px 8px 8px 0px;
+    margin-left: -10px ;
+
+}
+
+.subscribe-btn:hover{
     height: 64px;
     border-radius: 0px 8px 8px 0px;
     margin-left: -10px ;
