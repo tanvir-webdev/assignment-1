@@ -285,4 +285,88 @@ tr{
     text-align: left;
 }
 
+/* ---------------Donate section style--------------------- */
 
+.donate{
+    text-align: center;
+}
+
+.amount{
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto 23px auto;
+    width: 1071px;
+}
+
+.taka{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 16px;
+    border: 1px solid rgba(14, 14, 14, 0.15)
+}
+
+.amount-input{
+    width: 1071px;
+    height: 64px;
+    background: rgb(255, 255, 255);
+    border: none;
+    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+    text-align: center;
+    color: rgba(14, 14, 14, 0.3);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 32px;
+    
+}
+
+.amount-input:focus{
+    color: black;
+}
+
+/* ---------------Subscribe section style--------------------- */
+
+.subscribe{
+    text-align: center;
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+    padding: 80px 100px;
+    margin: 80px 0;
+
+}
+
+.email-input{
+    width: 600px;
+    height: 64px;
+    border: none;
+    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 8px 0px 0px 8px;
+    background: rgb(255, 255, 255);
+    text-align: left;
+    color: rgba(14, 14, 14, 0.3);
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 24px;
+    padding: 0 40px;
+   
+}
+
+.subscribe-btn{
+    height: 64px;
+    border-radius: 0px 8px 8px 0px;
+    margin-left: -10px ;
+
+}
+
+.subscribe-info{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    }
