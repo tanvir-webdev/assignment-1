@@ -29,6 +29,20 @@ main{
     padding: 17px 34px;
     border: none;
     cursor: pointer;
+    transition-duration: 0.7s;
+}
+
+.primary-btn:hover{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    background: rgb(52, 0, 136);
+    border-radius: 8px;
+    padding: 17px 34px;
+    border: none;
+    cursor: pointer;
+    transition-duration: 0.6s;
 }
 
 .the-vision-box{
@@ -77,6 +91,7 @@ main{
     cursor: pointer;
     font-size: 18px;
     font-weight: 600;
+    transition-duration: 1s;
 }
 
 .nav-btn:hover {
@@ -147,6 +162,17 @@ main{
 
 }
 
+.pillar:hover{
+    width: 302px;
+    height: 244px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgba(187, 255, 208, 0.363);
+    padding: 24px;
+
+}
+
+
 .pillar>img{
     width: 50px;
 }
@@ -180,14 +206,29 @@ main{
 
 .the-vision1{
     background: rgba(84, 144, 245, 0.2);
+    transition-duration: 0.5s;
+}
+
+.the-vision1:hover{
+    background: rgb(158, 184, 255);
 }
 
 .the-vision2{
     background: rgb(198, 228, 214);
+    transition-duration: 0.5s;
+}
+
+.the-vision2:hover{
+    background: rgb(63, 216, 236);
 }
 
 .the-vision3{
     background: rgb(247, 235, 207);
+    transition-duration: 0.5s;
+}
+
+.the-vision3:hover{
+    background: rgb(255, 229, 167);
 }
 
 .vision-items img{
@@ -324,6 +365,19 @@ tr{
     line-height: 48px;
     padding: 40px;
     background-color: #fff;
+    border-radius: 16px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    transition-duration: 0.3s;
+
+}
+
+.taka:hover{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    padding: 40px;
+    background: rgb(198, 228, 214);
     border-radius: 16px;
     border: 1px solid rgba(14, 14, 14, 0.15)
 }
